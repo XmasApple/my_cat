@@ -29,5 +29,4 @@ void read_opt(int argc, char *argv[], s_flags *flags);
 
 int main(int argc, char *argv[]);
 
-
 #endif  // SRC_CAT_MAIN_H_

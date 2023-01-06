@@ -24,16 +24,15 @@ Cat is one of the most frequently used commands on Unix-like operating systems. 
 - If third-party libraries are used, there must be build scripts in makefile to connect/load them
 - Integration tests must cover all flag variants and input values, based on a comparison with the behavior of real Bash utilities 
 - The programs must be developed according to the principles of structured programming
-- Code duplication must be avoided, common modules must be reused between the utilities. Common modules can be moved to a separate folder src/common
 - You can use standard and non-standard C libraries, or you can use your own developed libraries from other projects
 - The statement of the message in the case of an error does not matter
 - Input via stdin is not required to be supported
 
-## Part 1. Working with the cat utility
+## Working with the cat utility
 
 You need to develop a cat utility:
 - Support of all flags (including GNU versions) specified [above](#cat-options)
-- The source, header, and build files must be placed in the src/cat/ directory
-- The resulting executable file must be placed in the directory src/cat/ and named my_cat
+- The source, header, and build files must be placed in the my_cat/ directory
+- The resulting executable file must be placed in the directory my_cat/ and named my_cat
 
 
